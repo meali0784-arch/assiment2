@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> open inspect to see coding </h1>
+    <script> 
+        if (number % 2 == 0) {
+    console.log(number + " is Even");
+} else {
+    console.log(number + " is Odd");
+}
+if (number2 > 0) {
+    console.log("Positive number");
+} else if (number2 < 0) {
+    console.log("Negative number");
+} else {
+    console.log("Zero");
+}
+if (a > b) {
+    console.log("a is bigger");
+} else if (b > a) {
+    console.log("b is bigger");
+} else {
+    console.log("Both are equal");
+}
+if (marks >= 40) {
+    console.log("Passed");
+} else {
+    console.log("Failed");
+}
+if (age >= 0 && age <= 12) {
+    console.log("Child");
+} else if (age >= 13 && age <= 17) {
+    console.log("Teenager");
+} else {
+    console.log("Adult");
+}
+if (lahore > karachi) {
+    console.log("Lahore is hotter");
+} else {
+    console.log("Karachi is hotter");
+}
+if (bill >= 1000) {
+    console.log("10% discount applied");
+} else if (bill >= 500) {
+    console.log("5% discount applied");
+} else {
+    console.log("No discount");
+}
+if (battery >= 50) {
+    console.log("Battery Good");
+} else if (battery >= 20) {
+    console.log("Battery Low, plug in soon");
+} else {
+    console.log("Critical! Plug in now!");
+}
+if (day >= 1 && day <= 5) {
+    console.log("Weekday, go to school");
+} else if (day == 6 || day == 7) {
+    console.log("Weekend, enjoy!");
+} else {
+    console.log("Invalid day");
+}
+if (speed < 60) {
+    console.log("Safe driving");
+} else if (speed <= 80) {
+    console.log("Slight overspeed, warning");
+} else if (speed <= 120) {
+    console.log("Fine: Rs 500");
+} else {
+    console.log("Heavy fine: Rs 2000 + license cancelled");
+}
+let totalBill;
+
+if (units <= 100) {
+    totalBill = units * 5;
+} else if (units <= 300) {
+    totalBill = units * 10;
+} else {
+    totalBill = units * 20;
+}
+
+console.log("Total bill: Rs " + totalBill);
+if (username == "student" && password == "abc123") {
+    console.log("Login successful!");
+} else if (username != "student") {
+    console.log("Username not found");
+} else {
+    console.log("Wrong password");
+}
+if (side1 == side2 && side2 == side3) {
+    console.log("Equilateral triangle");
+} else if (side1 == side2 || side1 == side3 || side2 == side3) {
+    console.log("Isosceles triangle");
+} else {
+    console.log("Scalene triangle");
+}
+if (items >= 10 && isMember == true) {
+    console.log("20% discount");
+} else if (items >= 10 && isMember == false) {
+    console.log("10% discount");
+} else if (items < 10 && isMember == true) {
+    console.log("5% discount");
+} else {
+    console.log("No discount");
+}
+    </script>
+</body>
+</html>
